@@ -17,7 +17,7 @@
         <mirror>
           <id>nexus</id>
           <name>central</name>
-          <url>http://nexus3-cicd-ocpipelines.appsqa.sv.sherwinca.com/repository/maven-public/</url>
+          <url>http://nexus3-cicd-ocpipelines.2886795287-80-kota02.environments.katacoda.com/repository/maven-public/</url>
           <mirrorOf>*</mirrorOf>
         </mirror>
       </mirrors>
