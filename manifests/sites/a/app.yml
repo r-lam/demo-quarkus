@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: prueba
+spec:
+  destination:
+    name: ''
+    namespace: prueba
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: sites/a
+    repoURL: 'https://github.com/R-Lam/demo-quarkus.git'
+    targetRevision: HEAD
+  project: prueba
