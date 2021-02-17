@@ -8,7 +8,7 @@ spec:
     namespace: prueba
     server: 'https://kubernetes.default.svc'
   source:
-    path: manifests/sites
+    path: manifests/argo
     repoURL: 'https://github.com/R-Lam/demo-quarkus.git'
     targetRevision: HEAD
   project: prueba
