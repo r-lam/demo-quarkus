@@ -11,4 +11,4 @@ spec:
     path: manifests/sites/b
     repoURL: 'https://github.com/R-Lam/demo-quarkus.git'
     targetRevision: HEAD
-  project: prueba
+  project: default
