@@ -5,7 +5,6 @@ metadata:
     app.kubernetes.io/name: demo-quarkus
     app.openshift.io/runtime: quarkus
   name: demo-quarkus
-  namespace: default
 spec:
   replicas: 1
   selector:
