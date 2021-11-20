@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app.kubernetes.io/name: demo-quarkus
-    app.openshift.io/runtime: quarkus
+    app.openshift.io/runtime: java
   name: demo-quarkus
 spec:
   replicas: 1
